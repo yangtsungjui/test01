@@ -27,10 +27,10 @@ p {
 	background-image: url(images/sheetmiddle.gif);
 	background-repeat: repeat-y;
 	text-align: left;
-	width: 70px;
+	width: 707px;
 	display: block;
 	margin: 0;
-	padding: 1px 0 1px 0;
+	padding: 16px 0 16px 0;
 }
 
 #content {
