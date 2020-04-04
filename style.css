@@ -1,0 +1,161 @@
+body {
+	background-image: url(images/background.gif);
+	color: #7a7e33;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	padding: 10px;
+	display: block;
+}
+
+#container {
+	margin: 0 auto;
+	text-align: left;
+	width: 780px;
+}
+
+#header {
+	background-image: url(images/sheetmiddle.gif);
+	background-repeat: repeat-y;
+	text-align: center;
+	width: 707px;
+	display: block;
+	margin: 0;
+	padding: 16px 0 16px 0;
+}
+
+#content {
+	background-image: url(images/sheetmiddle.gif);
+	background-repeat: repeat-y;
+	position: relative;
+}
+
+#sheettop {
+	background-image: url(images/sheet.gif);
+	background-repeat: no-repeat;
+	width: 707px;
+}
+
+.title {
+	width: 500px;
+	border-bottom: 1px dashed #b6be8d;
+	text-align: left;
+	margin: 25px 0px 15px 110px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bolder;
+	display: inline;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: bolder;
+	display: inline;
+	margin-left: 12pt;
+}
+
+.text {
+	margin-left: 110px;
+	width: 500px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #7a7e33;
+	position: relative;
+	display: block;
+	height: auto;
+}
+
+.text a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #494c15;
+	text-decoration: underline;
+}
+
+.text a:hover {
+	color: #000000;
+}
+
+.text li {
+	margin: 0 12px 6px 30px;
+}
+
+#nav {
+	margin-top: 0px;
+	margin-left: 134px;
+}
+
+#nav ul {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #c2b5a2;
+	width: 420px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+#nav ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#nav ul li .active {
+	color: red;
+}
+
+#nav a {
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: blue;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: green;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	margin-left: 110px;
+	width: 500px;
+	z-index: 20;
+}
+
+.blog {
+	float: left;
+	margin: 8px 5px 0px 5px;
+}
+
+#footer {
+	background-image: url(images/footer.gif);
+	background-repeat: no-repeat;
+	width: 707px;
+	height: 86px;
+	margin-left: 0px;
+	padding-top: 24px;
+	font-size: 11px;
+	text-align: center;
+	color: brown;
+}
+
