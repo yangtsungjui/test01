@@ -26,11 +26,12 @@ p {
 #header {
 	background-image: url(images/sheetmiddle.gif);
 	background-repeat: repeat-y;
-	text-align: center;
+	text-align: left;
+	/* background-position:left; */
 	width: 707px;
 	display: block;
 	margin: 0;
-	padding: 16px 0 16px 0;
+	padding: 16px 0 16px 80px;
 }
 
 #content {
